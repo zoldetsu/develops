@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+    
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.header {
+    background-image: url(images/icons/Slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 255px;
+    
+    
+}
+
+.header-line {
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-severge {
+    margin-top: 188px;
+    max-width: 617px;
+}
+
+.mini-text{
+    margin-bottom: 44px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+.main-text {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.under-main-text {
+    margin-top: 90px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    flex-shrink: 400;
+    color: white;
+    line-height: 26px;
+
+}
