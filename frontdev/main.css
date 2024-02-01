@@ -26,11 +26,12 @@
     padding-top: 27px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-severge {
     margin-top: 188px;
-    max-width: 617px;
+    max-width: 590px;
 }
 
 .mini-text{
@@ -43,18 +44,58 @@
 
 
 .main-text {
-    font-size: 60px;
     font-family: 'Poppins', sans-serif;
+    font-size: 60px;
     font-weight: 700;
-    color: white;
+    line-height: 74px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: aliceblue;
+
 }
 
 .under-main-text {
     margin-top: 90px;
+    margin-bottom: 68px;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     flex-shrink: 400;
     color: white;
     line-height: 26px;
 
+}
+
+.mini-text-two {
+    
+    color: #FFD723;
+    font-family: Poppins;
+
+
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.brends-container {
+    position: absolute;
+    left: 540px;
+    top: 850px;
+    width: 1276px;
+    height: 227px;
+    color: rgb(59, 94, 124);
+    background: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.brends-leaner {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 166px 54px 65px;
 }
