@@ -68,7 +68,7 @@
 .mini-text-two {
     
     color: #FFD723;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 
 
     font-family: FontAwesome;
@@ -82,7 +82,7 @@
 
 .brends-container {
     position: absolute;
-    left: 540px;
+    left: 560px;
     top: 850px;
     width: 1276px;
     height: 227px;
@@ -98,4 +98,65 @@
     display: flex;
     justify-content: space-between;
     padding: 60px 166px 54px 65px;
+}
+
+.body-info {
+    margin-top: 200px;
+}
+
+.main-info-text {
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0px;
+    width: 607px;
+    height: 92px;
+
+
+}
+.info-leaner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-column {
+    width: 255px;
+    height: 309px;
+
+
+}
+
+.info-column-main-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #4D533C;
+    margin-bottom: 20px;
+}
+
+.info-column-severge-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #213842;
+    margin-bottom: 56px;
+}
+
+.info-column-read {
+    
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFD723;
+
 }
