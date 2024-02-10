@@ -13,4 +13,4 @@ with open(name_json,'w') as file_json:
     json.dump(file_js, file_json, indent=4)
 
 
-print(file_js["model"][0])
+print(file_js["model"][0]) #d
