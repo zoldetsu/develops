@@ -9,10 +9,21 @@ def server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-    server_socket.bind(('localhost', 5002))
+    server_socket.bind(('localhost', 5000))
     server_socket.listen()
 
+    '''
+    `fileobj` обычно представляет собой объект файла или сокета, на который нужно зарегистрировать события.
 
+    `events` определяет тип события, которое нужно зарегистрировать. В данном случае, мы регистрируем событие чтения 
+    (EVENT_READ), которое будет возникать, когда на серверный сокет поступят входящие данные.
+
+    `data` представляет собой колбэк-функцию, которая будет вызываться, когда произойдет зарегистрированное событие.
+    В данном случае, это функция `accept_connection`, которая будет вызываться при поступлении нового подключения к серверу.
+
+    При регистрации событий чтения на `server_socket`, модуль `selectors` будет отслеживать, когда на этот
+    сокет поступают входящие данные, и вызывать соответствующую функцию обратного вызова (колбэк), указанную в третьем аргументе `data`.
+    '''
     selector.register(fileobj=server_socket, events=selectors.EVENT_READ, data=accept_connection)
 
 
