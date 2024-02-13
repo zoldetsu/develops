@@ -14,5 +14,7 @@ async def main():
     task2 = asyncio.create_task(print2())
     task3 = asyncio.create_task(print3())
 
-
+    await task1
+    await task2
+    await task3
 asyncio.run(main())
