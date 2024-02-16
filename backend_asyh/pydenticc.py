@@ -31,4 +31,4 @@ try:
 except ValidationError as e:
     print(e.json())
 else:
-    print(city.json())
+    print(city.tags[0].id)
